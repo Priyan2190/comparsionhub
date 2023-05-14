@@ -66,6 +66,7 @@ li a:hover:not(.active) {
 }
 #maincontent{
     margin: 0 230px 0 230px; padding: 10px;
+    text-align:center;
 }
 #left{float: left;
     width: 230px;
