@@ -1,0 +1,303 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    line-height: 1cm;
+}
+
+
+#header {
+    background-color: black;
+    height: 250px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 10px;
+    padding-right: 70px;
+    opacity: 0.9;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+}
+
+li {
+    float: left;
+    border-right: 4px solid #bbb;
+
+}
+
+li:last-child {
+    border-right: #bbb none;
+}
+
+li a {
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: aqua;
+
+}
+
+.active {
+    background-color: blueviolet;
+}
+
+.innertext {
+    color: beige;
+    margin: 20px;
+}
+
+#content {
+    float: left;
+    width: 100%;
+}
+
+#maincontent {
+    margin: 0px 230px 0px 230px;
+    padding: 10px;
+
+}
+
+#left {
+    float: left;
+    width: 230px;
+    margin-left: -100%;
+    background-color: blueviolet;
+    border-radius: 10px;
+
+
+}
+
+#right {
+    float: left;
+    width: 230px;
+    margin-left: -230px;
+    background-color: blueviolet;
+    border-radius: 10px;
+
+}
+
+.procon {
+
+    color: aqua;
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+
+}
+
+#footer {
+    clear: left;
+    width: 100%;
+    background-color: chocolate;
+    text-align: center;
+    padding: 5px;
+}
+
+#yo {
+    font-weight: 900;
+
+}
+
+a {
+    color: rgba(31, 228, 41, 0.575);
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:active {
+    color: aqua;
+}
+
+#cc {
+    text-align: center;
+    margin-bottom: 90px;
+    margin-left: 30px;
+    font-weight: bolder;
+    color: goldenrod;
+}
+
+@media(max-width: 840px) {
+    #left {
+        margin-left: -100;
+
+
+    }
+
+    #right {
+        float: none;
+        width: 100%;
+        margin-left: 0%;
+        clear: both;
+
+    }
+
+    #maincontent {
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 600px) {
+    #left {
+        float: none;
+        width: 100%;
+
+        clear: both;
+        margin-left: 0;
+        ;
+    }
+
+    #maincontent {
+        margin-left: 0;
+    }
+}
+
+#heading {
+    text-align: center;
+}
+
+#ci {
+    color: beige;
+
+}
+
+.form-box {
+    max-width: 400px;
+
+
+    overflow: hidden;
+    border-radius: 20px;
+    color: #010101;
+    background: blueviolet;
+
+
+
+}
+.form-box:hover{
+    box-shadow: #bbb 0 10px;
+    
+}
+
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 30px 30px;
+    gap: 16px;
+    text-align: center;
+
+}
+.title{ font-weight: bolder;
+    font-size: 1.6rem;
+
+}
+.subtitle{
+font-size: 1rem;
+color: #312d2d;
+font-weight: bold;
+}
+.form-container{
+    overflow: hidden;
+    border-radius: 14px;
+    background-color: #b59ed3;
+    margin: 17px 8px ;
+    width: 100%;
+}
+.input{
+    background: none;
+    border: 0;
+    outline: 0;
+    
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #4d0c47;
+    font-size: 0.9rem;
+    padding: 5px 10px ;
+}
+.form-section{
+    padding: 20px;
+    font-size: 15px;
+    background-color:#b59ed3;
+    box-shadow: rgba(192, 24, 24, 8%) 0 -1px;
+    border-radius: 10px;
+}
+.form-section a {
+font-weight: bold;
+color: aqua;
+transition:color 0.3s ease;
+
+}
+.form-section a:hover{
+    color: #005ce6;
+    text-decoration: underline;
+}
+.form-button{
+    background-color: #0066ff;
+    border-radius: 30px;
+    padding: 5px  10px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+transition:   color .5s ease ;
+
+    
+}
+.form-button:hover{
+     background-color: #400ff1;
+     text-decoration: underline;
+}
+#idk{
+    text-align: center;
+    color: beige;
+    font-size: larger;
+    
+}
+#cl{
+    font-weight: bolder;
+    text-align: center;
+    color: chocolate;
+    font-size: 40px;
+    
+    
+}
+.fuck{
+    background-color: rgb(65, 66, 66);
+    border-radius: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+#form1{
+    float: center;
+    margin-left:400px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
